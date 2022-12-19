@@ -1,0 +1,44 @@
+:root {
+    /*cria variáveis para serem chamadas durante a programação*/
+    --cor-fundo: rgb(1, 225, 246);
+    --cor-hover: rgb(32, 61, 195);
+    --cor-primaria: rgb(254, 254, 254);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0%;
+
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-hover);
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.dp-menu ul li a:hover {
+    color: var(--cor-primaria);
+    background-color: var(--cor-hover);
+}
+
+/*fazer submenu*/
+
+.dp-menu ul ul {
+    display: none;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
