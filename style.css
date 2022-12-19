@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     /*cria variáveis para serem chamadas durante a programação*/
     --cor-fundo: rgb(1, 225, 246);
