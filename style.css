@@ -1,9 +1,9 @@
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
+}*/
 
 :root {
     /*cria variáveis para serem chamadas durante a programação*/
@@ -14,7 +14,7 @@
 
 .dp-menu ul {
     list-style-type: none;
-    padding: 0%;
+    padding: 0;
 
 }
 
